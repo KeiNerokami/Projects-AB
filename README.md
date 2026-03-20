@@ -1,7 +1,8 @@
 # Projects-AB
 **JustBored v2.0**
 
-<a href="https://github.com/KeiNerokami"><img src="https://github.com/user-attachments/assets/37e1d860-033b-4cf3-a158-468fc6b4debc" width="82" height="30"></a> [<img src="https://github.com/2captcha/.github/assets/38065632/d8bd5d7d-dc93-452d-9762-4090add4b295" width="80" height="30" alt="Email"/>](mailto:unknown.bit.609@gmail.com)  &nbsp;
+[![GitHub](https://img.shields.io/badge/GitHub-Profile-black?style=for-the-badge&logo=github)](https://github.com/KeiNerokami)
+[![Email](https://img.shields.io/badge/Email-Contact-red?style=for-the-badge&logo=gmail)](mailto:unknown.bit.609@gmail.com)
 
 ## Overview
 This repository is a personal directive for projects that I should and must build.
