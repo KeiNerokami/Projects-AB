@@ -1,6 +1,8 @@
 # Projects-AB
 **JustBored v2.0**
 
+<a href="https://github.com/KeiNerokami"><img src="https://github.com/user-attachments/assets/37e1d860-033b-4cf3-a158-468fc6b4debc" width="82" height="30"></a> [<img src="https://github.com/2captcha/.github/assets/38065632/d8bd5d7d-dc93-452d-9762-4090add4b295" width="80" height="30" alt="Email"/>](mailto:unknown.bit.609@gmail.com)  &nbsp;
+
 ## Overview
 This repository is a personal directive for projects that I should and must build.
 
@@ -50,4 +52,3 @@ Its contents may change as new ideas, goals, and interests develop.
 ## Author
 This project is Created and maintained by **KeiNerokami**.
 
-<a href="https://github.com/KeiNerokami"><img src="https://github.com/user-attachments/assets/37e1d860-033b-4cf3-a158-468fc6b4debc" width="82" height="30"></a>[<img src="https://github.com/2captcha/.github/assets/38065632/d8bd5d7d-dc93-452d-9762-4090add4b295" width="80" height="30" alt="Email"/>](mailto:unknown.bit.609@gmail.com)  &nbsp;
