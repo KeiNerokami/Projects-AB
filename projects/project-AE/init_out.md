@@ -1,5 +1,26 @@
+## Total XP Required for the Current Linear Formula
+
+The table lists the XP requirement for each level. To find the total XP
+required to complete all 100 levels, add every level requirement:
+
+$$
+\begin{aligned}
+XP_{\text{total}} &= 180 + 435 + 690 + \cdots + 25{,}425 \\
+&= \sum_{k=0}^{99} \left(180 + 255k\right) \\
+&= \frac{100}{2}\left(2(180) + (100-1)(255)\right) \\
+&= 50(360 + 25{,}245) \\
+&= 50(25{,}605) \\
+&= 1{,}280{,}250 \text{ XP}
+\end{aligned}
+$$
+
+This is the sum of the requirements from Level 1 through Level 100 in this
+table. It is a sum of level-up costs, not the single Level 100 requirement;
+the Level 100 row itself is `25,425 XP`.
+
 level | current_linear_formula | direct_level_multiplier | multiplicative_growth | percentage_growth | quadratic_growth | cubic_growth | polynomial_growth | logarithmic_growth | power_law_growth | generic_growth
 --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | ---
+
 L  1 | 180.00 | 435.00 | 180.00 | 180.00 | 180.00 | 180.00 | 180.00 | 180.00 | 180.00 | 180.00
 L  2 | 435.00 | 690.00 | 45900.00 | 198.00 | 435.00 | 435.00 | 435.00 | 435.00 | 720.00 | 435.00
 L  3 | 690.00 | 945.00 | 11704500.00 | 217.80 | 1200.00 | 2220.00 | 1200.00 | 584.17 | 1620.00 | 690.00
