@@ -1,0 +1,249 @@
+/* Page */
+body {
+    background: #f2f1ef;
+    font-family: Arial, sans-serif;
+}
+
+/* Searchbar */
+.searchbar {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    
+    gap: 0;
+    margin: 0;
+    padding: .85rem .95rem .7rem;
+    background: transparent;
+}
+
+/* Search controls */
+.search-row {
+    width: min(60%, 39rem);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .65rem;
+}
+
+.search {
+    width: 100%;
+    padding: .3rem .55rem;
+    border: 1px solid var(--border);
+    border-radius: 0;
+    background: var(--surface);
+    color: var(--text);
+    font: inherit;
+    outline: none;
+}
+
+.search:focus {
+    border-color: var(--accent);
+    box-shadow: 0 0 0 3px rgb(104 75 0 / 20%);
+}
+
+/* Buttons and selectors */
+button, select {
+    min-height: 1.8rem;
+    padding: .25rem .55rem;
+    border: 1px solid var(--border);
+    border-radius: .5rem;
+    background: var(--surface);
+    color: var(--text);
+    font: inherit;
+    cursor: pointer;
+}
+
+button.filter, #apply-filter, .tile-view {
+    height: 1.8rem;
+    min-height: 1.8rem;
+    border-color: var(--accent);
+    background: var(--accent);
+    color: var(--surface);
+}
+
+.tile-view {
+    min-width: 1.8rem;
+    padding: 0;
+    line-height: 1;
+}
+
+.add-tile {
+    width: auto;
+    height: 1.8rem;
+    min-height: 1.8rem;
+    border-color: var(--accent);
+    background: var(--accent);
+    color: var(--surface);
+    line-height: normal;
+}
+
+/* Filter modal */
+.filter-modal {
+    width: min(90vw, 24rem);
+    padding: 0;
+    border: 0;
+    border-radius: .8rem;
+    background: var(--surface);
+    color: var(--text);
+    box-shadow: 0 1rem 3rem rgb(0 0 0 / 30%);
+}
+
+.filter-modal::backdrop { background: rgb(0 0 0 / 42%); }
+
+.filter-form {
+    display: flex;
+    flex-direction: column;
+    gap: .75rem;
+    padding: 1.4rem;
+}
+
+.filter-form h2 { margin: 0; font-size: 1.2rem; }
+
+.filter-form select {
+    border-color: var(--border);
+    border-radius: .5rem;
+    background: var(--surface);
+    color: var(--text);
+}
+
+.modal-actions {
+    display: flex;
+    justify-content: flex-end;
+    gap: .6rem;
+    margin-top: .5rem;
+}
+
+.modal-actions button {
+    border-color: var(--border);
+    border-radius: .5rem;
+    background: var(--surface);
+    color: var(--text);
+}
+
+.modal-actions button.filter {
+    border-color: var(--accent);
+    background: var(--accent);
+    color: var(--surface);
+}
+
+/* Add-tile modal */
+.add-tile-modal {
+    width: min(90vw, 42rem);
+    padding: 0;
+    border: 0;
+    border-radius: .8rem;
+    background: var(--surface);
+    color: var(--text);
+    box-shadow: 0 1rem 3rem rgb(0 0 0 / 30%);
+}
+
+.add-tile-modal::backdrop { background: rgb(0 0 0 / 42%); }
+
+/* Add-tile form */
+.add-tile-form {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: .75rem 1rem;
+    padding: 1.25rem;
+}
+
+.add-tile-form h2 {
+    grid-column: 1 / -1;
+    margin: 0;
+    font-size: 1.1rem;
+}
+
+.add-tile-form label { align-self: center; }
+
+.add-tile-form input,
+.add-tile-form textarea {
+    width: 100%;
+    border: 1px solid var(--border);
+    border-radius: .5rem;
+    background: var(--surface);
+    color: var(--text);
+    font: inherit;
+}
+
+.add-tile-form input { min-height: 2.25rem; padding: .5rem; }
+.add-tile-form textarea { min-height: 8rem; padding: .5rem; resize: vertical; }
+
+.add-tile-actions {
+    grid-column: 1 / -1;
+    display: flex;
+    justify-content: flex-end;
+    gap: .6rem;
+}
+
+.add-tile-actions button {
+    border-color: var(--border);
+    border-radius: .5rem;
+    background: var(--surface);
+    color: var(--text);
+}
+
+.add-tile-actions .save-tile {
+    border-color: var(--accent);
+    background: var(--accent);
+    color: var(--surface);
+}
+
+/* Tile group */
+.tile-group {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1rem;
+    margin: 0;
+    padding: 0 .95rem 1rem;
+}
+
+.tile-group.list-view {
+    grid-template-columns: 1fr;
+}
+
+/* Tile */
+.tile {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 4rem minmax(0, 1fr);
+    grid-template-rows: repeat(4, auto);
+    column-gap: .75rem;
+    align-content: center;
+    min-height: 5.6rem;
+    margin: 0;
+    padding: .75rem;
+    overflow: hidden;
+    border: 1px solid #d5d5d5;
+    border-radius: 0;
+    background: var(--surface);
+    box-shadow: 0 1px 2px rgb(0 0 0 / 8%);
+    color: var(--text);
+}
+
+.tile img {
+    grid-row: 1 / -1;
+    width: 4rem;
+    height: 4rem;
+    margin: 0;
+    border: 1px solid #d8d8d8;
+    border-radius: 0;
+    background: #eeeeee;
+    object-fit: cover;
+}
+
+.tile p { margin: 0; }
+.tile p:first-of-type { font-size: .95rem; font-weight: 700; }
+.tile p:nth-of-type(2),
+.tile p:nth-of-type(3),
+.tile p:last-of-type { color: var(--text); font-size: .9rem; }
+.tile p:last-of-type { line-height: 1.2; }
+
+/* Responsive layout */
+@media (max-width: 30rem) {
+    .search-row { width: 100%; flex-direction: column; }
+    .filter, .add-tile, .tile-view { width: 100%; }
+    .tile-group { grid-template-columns: 1fr; }
+}

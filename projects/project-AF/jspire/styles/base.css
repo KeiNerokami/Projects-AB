@@ -1,0 +1,13 @@
+:root {
+    --bg-base: #967b32;
+    --surface: #fff;
+    --text: #242424;
+    --accent: #684b00;
+    --border: #c9b98f;
+}
+
+* { box-sizing: border-box; }
+
+body {
+    min-height: 100vh;
+}
