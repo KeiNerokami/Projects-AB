@@ -82,7 +82,7 @@ The initial and refreshed base cooldown is selected uniformly between `1` and
 `5` seconds:
 
 $$
-C_0 \sim \operatorname{Uniform}(1,5) \text{ seconds}
+C_0 \sim U(1,5) \text{ seconds}
 $$
 
 An XP award is accepted only when the elapsed time since the previous award
