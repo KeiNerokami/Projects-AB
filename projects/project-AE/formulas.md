@@ -193,7 +193,7 @@ where level resolution uses the stored level plus current-level XP.
 | 15 | $$G_n^{(r)} = G_0 + M(n - 1)S(r,n)$$ | RNK affects the curve, not just the scale | $$\text{No general closed-form inverse; depends on }S(r,n)$$ |
 
 
-**Cumulative XP to RNK 10, Level 100**
+**Cumulative XP to RNK 10, Level 100 (Old levelling system)**
 
 The cumulative XP formula for reaching level `n` at RNK `R` is:
 
