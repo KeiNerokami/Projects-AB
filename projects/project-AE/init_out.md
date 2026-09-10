@@ -18,6 +18,24 @@ This is the sum of the requirements from Level 1 through Level 100 in this
 table. It is a sum of level-up costs, not the single Level 100 requirement;
 the Level 100 row itself is `25,425 XP`.
 
+## Total XP Required for RNK 10 / Level 100
+
+The RNK formula multiplies every level requirement by `2^RNK`. Therefore,
+the total XP required to complete RNKs 0 through 10 and reach RNK 10 at
+Level 100 is:
+
+$$
+\begin{aligned}
+XP_{\text{RNK 10, L100}}
+&= 1{,}280{,}250 \times \sum_{r=0}^{10} 2^r \\
+&= 1{,}280{,}250 \times 2{,}047 \\
+&= 2{,}620{,}671{,}750 \text{ XP}
+\end{aligned}
+$$
+
+RNK 10 at Level 0 begins at `1,309,695,750 XP`; completing all 100 levels
+within RNK 10 brings the total to `2,620,671,750 XP`.
+
 level | current_linear_formula | direct_level_multiplier | multiplicative_growth | percentage_growth | quadratic_growth | cubic_growth | polynomial_growth | logarithmic_growth | power_law_growth | generic_growth
 --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | ---
 L  1 | 180.00 | 435.00 | 180.00 | 180.00 | 180.00 | 180.00 | 180.00 | 180.00 | 180.00 | 180.00
